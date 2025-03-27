@@ -18,7 +18,6 @@ body {
 }
 
 #info {
-    border-bottom: black solid 10px;
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
