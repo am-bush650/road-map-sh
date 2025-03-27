@@ -13,4 +13,32 @@ body {
     background-color: rgb(234, 223, 244);
     padding: 10%;
     display: flexbox;
+    justify-content: center;
+    align-items: center;
 }
+
+#info {
+    border-bottom: black solid 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.projects, .experience, .education {
+    width: 20%;
+}
+
+.projects p {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+#reviews {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blueviolet;
+}
+
+.john1, .john2, .john3, .john4 {
+    width: 20%;
+} 
