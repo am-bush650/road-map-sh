@@ -5,7 +5,7 @@ nav a {
     font-weight: 700;
     color: rgb(104, 110, 110);
     float: right;
-    display: block;
+    display: flex;
     padding: 14px 20px;
     text-decoration: none;
 

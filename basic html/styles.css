@@ -1,4 +1,16 @@
 body {
-    background-color: #ecfefa;
+    margin: 0;
+    padding: 0;
     font-family: "Winky Sans", sans-serif;
+}
+
+#navigation {
+    height: 50px;
+    border-bottom: rgb(190, 188, 188) solid 7px;
+}
+
+#intro {
+    background-color: rgb(234, 223, 244);
+    padding: 10%;
+    display: flexbox;
 }
