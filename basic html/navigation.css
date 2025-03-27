@@ -1,0 +1,14 @@
+
+nav a {
+    font-family: winky Sans;
+    font-weight: 700;
+    color: rgb(104, 110, 110);
+    float: right;
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none;
+
+}
+nav a:hover {
+    color: black;
+}
