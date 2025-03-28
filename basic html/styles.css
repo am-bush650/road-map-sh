@@ -10,21 +10,38 @@ body {
 }
 
 #intro {
-    background-color: rgb(234, 223, 244);
+    height: 250px;
+    background-image: url('https://bit.ly/3DZHtkv');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 10%;
     display: flexbox;
     justify-content: center;
-    align-items: center;
+    text-align: center;
+    color: azure;
 }
 
 #info {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 20px;
+    margin: 0;
 }
 
-.projects, .experience, .education {
-    width: 20%;
+.projects {
+    background-color: aqua;
+    padding: 5px;
+}
+
+.education {
+    background-color: rgb(240, 139, 232);
+    padding: 5px;
+}
+
+.experience {
+    background-color: rgb(142, 247, 116);
+    padding: 5px;
 }
 
 .projects p {
