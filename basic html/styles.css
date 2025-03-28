@@ -23,36 +23,68 @@ body {
 }
 
 #info {
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#info .projects, .education, .experience {
+    width: 20%;
     padding: 20px;
-    margin: 0;
 }
 
 .projects {
-    background-color: aqua;
-    padding: 5px;
+    background-color: rgb(52, 57, 57);
+    border-radius: 35px 0 0 35px;
+    background-image: url(https://shorturl.at/e7bDf);
+    background-size: contain;
+    background-blend-mode: multiply;
+    color: white;
+
 }
 
 .education {
-    background-color: rgb(240, 139, 232);
-    padding: 5px;
+    background-image: url(https://shorturl.at/zGscL);
+    background-size: auto;
+    background-blend-mode: multiply;
+    background-color: rgb(72, 68, 78);
+    border-radius: 0 35px 35px 0;
+    color: whitesmoke;
 }
 
 .experience {
     background-color: rgb(142, 247, 116);
-    padding: 5px;
 }
 
 .projects p {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(250, 248, 248);
     padding-bottom: 10px;
+}
+.courses {
+    border-bottom: 2px solid rgb(250, 248, 248);
+
+}
+#strength {
+    width: auto;
+    display: flex;
+    margin: 20px 10px 20px 10px;
+}
+.html, .css, .js, .python {
+    width: 25%;
+    color: darkgrey;
+    padding: 20px 10px 20px 10px;
+}
+.skills {
+    text-align: center;
+    color: blueviolet;
+    font-size: 50pt;
 }
 
 #reviews {
     display: flex;
     justify-content: space-evenly;
-    background-color: blueviolet;
+    background-color: darkgrey;
 }
 
 .john1, .john2, .john3, .john4 {
